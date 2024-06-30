@@ -9,3 +9,11 @@ There are 3 major components.
     - how the widgets are placed
 3. Style
     - look and feel
+<br>
+
+- main loop: 
+    - updates the gui
+    - checks for events:
+        - button click
+        - mouse movement
+        - run until closing the window
