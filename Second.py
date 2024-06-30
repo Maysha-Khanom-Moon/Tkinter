@@ -26,16 +26,13 @@ button = ttk.Button(master=window, text='A button', command=button_func)
 button.pack()
 
 # exercise
-def print_hello():
-    print('Hello')
-
 tk.Text(master=window, height=10, width=50).pack(pady=10)
 
 ttk.Entry(master=window).pack()
 
 ttk.Label(master=window, text="my label").pack()
 
-ttk.Button(master=window, text='print hello', command=print_hello).pack()
+ttk.Button(master=window, text='print hello', command=lambda: print('Hello')).pack()
 
 # run
 window.mainloop()
